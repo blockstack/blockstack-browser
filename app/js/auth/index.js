@@ -591,9 +591,7 @@ class AuthPage extends React.Component {
             isOpen
           >
             <div className="alert alert-danger">
-              Failed to fetch information about the app requesting
-              authentication. Please contact the app maintainer to resolve the
-              issue.
+              Blockstack could not sign you into the app. The applications' configuration prevents the Blockstack Browser from connecting. Please contact the app maintainer to resolve the issue. Refer the maintainer to the <a href="http://docs.blockstack.org/develop/deploy-tips.html">instructions for app deployment</a>.
             </div>
           </Modal>
           <AppHomeWrapper />
